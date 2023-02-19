@@ -1,0 +1,28 @@
+# Ignore all compiled and executable files
+*.exe
+*.out
+*.o
+*.so
+*.class
+
+# Ignore Go build output
+/bin/
+/pkg/
+/*.exe
+
+# Ignore Rust build output
+/target/
+
+# Ignore Java build output
+*.class
+*.jar
+
+# Ignore Python build output
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Ruby build output
+*.gem
+*.rbc
+/.config

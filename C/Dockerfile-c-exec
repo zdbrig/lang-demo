@@ -1,0 +1,11 @@
+# Use a C development environment as the parent image
+FROM alpine
+
+WORKDIR /app
+# Copy the source code to the container
+COPY webserver  .
+
+RUN chmod +x webserver
+
+# Set the command to run the executable
+CMD ["./webserver"]
